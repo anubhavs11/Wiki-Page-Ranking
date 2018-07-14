@@ -12,7 +12,7 @@ Input file for the page ranking is a xml file which can be exported from the thi
 
 Here is the input format of the file. A xml file consists of page information enclosed in page tags(<page>). And Links in each page tag is enclosed in two square brackets ([[Apache Software Foundation]]) as they are represented in bold
 
-<img src="Images/input_format.png" alt = "Input Format">
+<img src="Images/input_format.PNG" alt = "Input Format">
 
 On a worldwide all the web pages are interlinked to each other and every page have a link to the other page. All the incoming links to a webpage is called a backlink.
 The algorithm used for ranking the webpages is such that, any webpage can only give only one point to other pages. It means that if a webpage has N links, it will give 1/N points to each page and in total it has only one point. Pages having backlinks more than one, then it will add all its points to get the total points for that particular page. At the pages sorted by their points in descending order.
